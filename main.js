@@ -118,9 +118,39 @@
 // console.log(numbersArr.includes(1));
 // console.log(numbersArr.indexOf(2));
 
-let cities = ["волжский", "москва"  , "волгоград"];
-if (cities.includes("волжский")){
-    console.log(cities.indexOf("волжский"))
-}else{
-    console.log("нет такого города")
-}
+// let cities = ["волжский", "москва"  , "волгоград"];
+// if (cities.includes("волжский")){
+//     console.log(cities.indexOf("волжский"))
+// }else{
+//     console.log("нет такого города")
+// }
+
+
+// let user2 ={
+//     name : "Ivan",
+//     age: 20 , 
+//     isStudent: true,
+// };
+// console.log(user2);
+
+// let book={
+//     title : "повелитель мух", 
+//     auter : "уильям", 
+//     year : "не знаю",
+// };
+// console.log(book.title);
+// console.log(book.auter);
+// console.log(book.year);
+// book.year = "67";
+
+let car = {
+    brand : "bmw",
+    year : 67,
+    getInfo(){
+        console.log(`${brand} , ${year}`)
+    }
+};
+car.getInfo();
+
+
+
