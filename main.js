@@ -143,14 +143,14 @@
 // console.log(book.year);
 // book.year = "67";
 
-let car = {
-    brand : "bmw",
-    year : 67,
-    getInfo(){
-        console.log(`${brand} , ${year}`)
-    }
-};
-car.getInfo();
+// let car = {
+//     brand: "bmw",
+//     year: 67,
+//     getInfo() {
+//         console.log(`${car.brand}, ${car.year}`);
+//     }
+// };
+// car.getInfo();
 
 
 
